@@ -41,7 +41,7 @@ public class LoginForm {
         for(int i = 0; i<3; i++) {
 //        write mess
             WebElement writeMessElement = webDriver.findElement(By.xpath("/html/body/div[1]/div/div[1]/div/div[7]/div/div[1]/div[1]/div/div/div/div/div[2]/div[2]/div/div/div[4]/div[2]/div/div/div[1]"));
-            writeMessElement.sendKeys("Hello Huyen Pretty");
+            writeMessElement.sendKeys("Hello Hai Very Handsome");
             Thread.sleep(2000);
 
 //      send
