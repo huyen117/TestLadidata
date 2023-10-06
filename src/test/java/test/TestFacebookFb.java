@@ -49,6 +49,7 @@ public class TestFacebookFb {
             WebElement sendElement = webDriver.findElement(By.xpath("/html/body/div[1]/div/div[1]/div/div[5]/div[1]/div[1]/div[1]/div/div/div/div/div/div[2]/div[2]/div/span[2]/div"));
             sendElement.click();
         }
+        System.out.println("Hello world");
 
 
         webDriver.close();
