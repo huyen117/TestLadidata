@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.Select;
 
-public class TestSignIn {
+public class TestSignUp {
     public static void main(String[] args) throws InterruptedException {
         WebDriverManager.getInstance(DriverManagerType.CHROME).setup();
         ChromeOptions options = new ChromeOptions();
@@ -61,6 +61,9 @@ public class TestSignIn {
 //        click login
         WebElement logInElement = webDriver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div/div[2]/div/div/div[1]/form/div[1]/div[11]/button"));
         logInElement.click();
+
+        webDriver.close();
+        webDriver.quit();
 
 
 
