@@ -51,7 +51,6 @@ public class TestFacebookFb {
         }
         System.out.println("Hello world");
 
-        System.out.println("Hello world test");
 
 
 
